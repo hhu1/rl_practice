@@ -1,3 +1,9 @@
+# Small grids world
+
+In a N x N grids, top left corner (0,0) is the escape (absorbing state). Every time, you can only take one step to left, right, up, or down directoin, and the reward for doing this is -1. The goal is to calculate the return of each position in this grid world.
+
+The implemented solution is a value iteration method which is a special case of dynamic programming implementation.
+
 # Lights Out
 
 This script implements a tabular Q-learning solution to the 3x3 lights out puzzle. <https://en.wikipedia.org/wiki/Lights_Out_(game)> It first does the training, and then test the model with a special test case.
